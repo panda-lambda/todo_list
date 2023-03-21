@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--Needs Xamp to run propery, Ajax call is only made once!its a one time function-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+    ></script>
+    <script type="text/javascript" src="./utils/script.js" defer></script>
+    <link rel="stylesheet" href="./utils/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+
+    <audio id="delAudio" src="./img/delete.wav"></audio>
+    <audio id="checkAudio" src="./img/done.ogg"></audio>
+    <div id="message">
+      <span id="message-content">Element gelöscht!</span>        
+    </div><div id="input-container">
+     
+    <button id="hide">hide</button>
+
+    <button id="add">add</button>
+      <input type="text"  id="input" />
+    <div id="weather">Wien | <span id="temp"></span> C° | <span id="wind"></span> km/h</div>
+    
+    <ol id="olist"></ol>
+  </body>
+</html>
